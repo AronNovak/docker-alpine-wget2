@@ -3,4 +3,4 @@ version: '3'
 services:
   wget2:
     build: .
-    image: rocket-factory/alpine-wget2
+    image: rocketfactory/docker-alpine-wget2
