@@ -17,7 +17,7 @@ docker run -v $PWD:/data --rm arongizra/wget2-alpine --chunk-size=1M --max-threa
 Get help:
 
 ```
-docker run --rm hupili/wget2 -h
+docker run --rm arongizra/wget2-alpine -h
 ```
 
 ## Build
@@ -33,7 +33,7 @@ docker-compose build
 This note is only for myself:
 
 ```
-docker push hupili/wget2
+docker push arongizra/wget2-alpine
 ```
 
 ## Versioning concept
